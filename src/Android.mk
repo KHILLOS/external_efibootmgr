@@ -15,15 +15,14 @@ include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../Make.version
 
 LOCAL_MODULE := efibootmgr
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
+LOCAL_C_INCLUDES := $(LOCAL_PATH)
 LOCAL_STATIC_LIBRARIES := libefivar
-LOCAL_MODULE_PATH := $(TARGET_INSTALLER_OUT)/sbin
 
 LOCAL_CFLAGS := \
 	-Werror -Wall -Wextra -Wsign-compare -Wstrict-aliasing \
 	-D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE \
 	-DEFIBOOTMGR_VERSION="\"$(VERSION)\"" \
-	-DDEFAULT_LOADER=\"\\\\elilo.efi\"
+	-DDEFAULT_LOADER=\"\\elilo.efi\"
 
 LOCAL_SRC_FILES := \
 	efi.c \
