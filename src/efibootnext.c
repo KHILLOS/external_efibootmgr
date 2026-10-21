@@ -19,6 +19,9 @@
  * with this library; if not, see <https://www.gnu.org/licenses/>.
  *
  */
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 #include "fix_coverity.h"
 

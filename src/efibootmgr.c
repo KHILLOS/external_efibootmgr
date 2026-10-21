@@ -30,6 +30,9 @@
     Arguments passed to elilo, as UCS-2 characters, length ??
 
 */
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 #include "fix_coverity.h"
 

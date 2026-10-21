@@ -1,6 +1,9 @@
 /* 
    Copied from the Linux 2.4.4 kernel, in linux/include/linux/list.h
 */
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 #ifndef _LINUX_LIST_H
 #define _LINUX_LIST_H

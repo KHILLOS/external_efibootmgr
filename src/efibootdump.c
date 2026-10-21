@@ -7,6 +7,9 @@
  *
  * Author: Peter Jones <pjones@redhat.com>
  */
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 #include "fix_coverity.h"
 

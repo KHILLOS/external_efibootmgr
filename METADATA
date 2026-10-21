@@ -1,0 +1,21 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/efibootmgr
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
+
+name: "efibootmgr"
+description: "efibootmgr is a tool to manage UEFI boot entries."
+third_party {
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 10
+    day: 21
+  }
+  homepage: "https://github.com/rhboot/efibootmgr"
+  identifier {
+    type: "Git"
+    value: "https://github.com/rhboot/efibootmgr"
+    version: "c3f9f05"
+    closest_version: "18"
+  }
+}

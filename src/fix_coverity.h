@@ -4,6 +4,9 @@
  *
  * Distributed under terms of the GPLv3 license.
  */
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 #ifndef FIX_COVERITY_H
 #define FIX_COVERITY_H
